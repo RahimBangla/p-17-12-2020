@@ -14,7 +14,7 @@
           sm="4"
           xs="12"
         >
-          <Shoos
+          <Shoes
             :title="card.title"
             :url="card.url"
             :picture="card.picture"
@@ -28,12 +28,12 @@
 
 <script>
 // @ is an alias to /src
-import Shoos from "@/components/Shoos.vue";
+import Shoes from "@/components/Shoes.vue";
 
 export default {
   name: "Home",
   components: {
-    Shoos,
+    Shoes,
   },
   data: () => ({
     cards: [

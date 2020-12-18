@@ -4,30 +4,24 @@
       <template #left>
         <img src="/img/logo_flat.png" alt="logo" style="width: 200px" />
       </template>
-      <vs-navbar-item to="/" :active="active == 'home'" id="home">
-        Home
-      </vs-navbar-item>
-
-      <vs-navbar-item
-        to="/shoos"
-        :active="active == 'components'"
-        id="components"
-      >
-        Shoos
-      </vs-navbar-item>
-      <vs-navbar-item
-        to="/technology"
-        :active="active == 'license'"
-        id="license"
-      >
-        Technology
-      </vs-navbar-item>
-      <vs-navbar-item to="/about" :active="active == 'about'" id="about">
-        About
-      </vs-navbar-item>
       <template #right>
-        <vs-button flat>Login</vs-button>
-        <vs-button>Get Started</vs-button>
+        <vs-navbar-item to="/" :active="active == 'home'" id="home">
+          Home
+        </vs-navbar-item>
+
+        <vs-navbar-item to="/shoes" :active="active == 'shoes'" id="shoes">
+          Shoes
+        </vs-navbar-item>
+        <vs-navbar-item
+          to="/technology"
+          :active="active == 'technology'"
+          id="technology"
+        >
+          Technology
+        </vs-navbar-item>
+        <vs-navbar-item to="/about" :active="active == 'about'" id="about">
+          About
+        </vs-navbar-item>
       </template>
     </vs-navbar>
   </div>

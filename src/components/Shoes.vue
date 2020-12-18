@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "shoes",
   props: {
     title: String,
     url: String,
