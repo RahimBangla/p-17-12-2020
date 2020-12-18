@@ -1,11 +1,7 @@
 <template>
   <div class="home">
-    <v-parallax dark :src="coverurl">
+    <v-parallax height="600" dark :src="coverurl">
       <v-col align="center" justify="center">
-        <br />
-        <br />
-        <br />
-        <br />
         <v-col class="text-center cd-fixed-bg" cols="12">
           <h1 class="display-2 font-weight-bold mb-6">
             {{ title }}
@@ -13,18 +9,23 @@
         </v-col>
       </v-col>
     </v-parallax>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="bg-white">
+      <HelloWorld msg="Welcome to Your Vue.js App" />
+    </div>
+    <Homeinfo />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import Homeinfo from "@/components/Homeinfo.vue";
 
 export default {
   name: "Home",
   components: {
     HelloWorld,
+    Homeinfo,
   },
   data: () => ({
     title: "ROCKY MTN RECREATION CENTER",
@@ -36,7 +37,7 @@ export default {
 
 <style >
 .cd-fixed-bg {
-  padding-top: 50%;
+  padding-top: 20%;
 }
 .cd-fixed-bg h1,
 .cd-fixed-bg h2 {

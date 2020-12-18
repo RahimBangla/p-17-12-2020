@@ -7,7 +7,7 @@
         <ul
           class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0"
         >
-          <li class="mr-3 mr-lg-0">© 2020 Demo Project.</li>
+          <li class="mr-3 mr-lg-0">© 2020 CHRISTIAN MCCLELLAN.</li>
         </ul>
 
         <a
