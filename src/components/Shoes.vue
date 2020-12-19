@@ -1,16 +1,16 @@
 <template>
   <div>
-    <vs-card type="4">
+    <vs-card type="2">
       <template #title>
-        <a :href="url" class="href">
-          <h3>{{ title }}</h3>
-        </a>
+        <h3>{{ title }}</h3>
       </template>
       <template #img>
-        <img :src="picture" alt="" />
+        <img :src="picture" :alt="title" />
       </template>
       <template #text>
-        <p>{{ info }}</p>
+        <p>
+          {{ info }}
+        </p>
       </template>
       <template #interactions>
         <vs-button danger icon>
@@ -18,7 +18,7 @@
         </vs-button>
         <vs-button class="btn-chat" shadow primary>
           <i class="bx bx-chat"></i>
-          <span class="span"> 54 </span>
+          <span class="span"> 54$ </span>
         </vs-button>
       </template>
     </vs-card>

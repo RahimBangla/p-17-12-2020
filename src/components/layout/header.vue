@@ -2,24 +2,31 @@
   <div class="center examplex">
     <vs-navbar center-collapsed v-model="active">
       <template #left>
-        <img src="/img/logo_flat.png" alt="logo" style="width: 200px" />
+        <img
+          src="/img/logo_flat.png"
+          alt="logo"
+          class="d-none d-sm-block"
+          style="width: 200px"
+        />
+        <img
+          src="/img/logo.png"
+          alt="logo"
+          class="d-sm-none"
+          style="width: 70px"
+        />
       </template>
       <template #right>
-        <vs-navbar-item to="/" :active="active == 'home'" id="home">
+        <vs-navbar-item to="/" :active="active == 'Home'" id="Home">
           Home
         </vs-navbar-item>
 
-        <vs-navbar-item to="/shoes" :active="active == 'shoes'" id="shoes">
+        <vs-navbar-item to="/shoes" :active="active == 'Shoes'" id="Shoes">
           Shoes
         </vs-navbar-item>
-        <vs-navbar-item
-          to="/technology"
-          :active="active == 'technology'"
-          id="technology"
-        >
+        <vs-navbar-item to="/technology" :active="active == 'Tech'" id="Tech">
           Technology
         </vs-navbar-item>
-        <vs-navbar-item to="/about" :active="active == 'about'" id="about">
+        <vs-navbar-item to="/about" :active="active == 'About'" id="About">
           About
         </vs-navbar-item>
       </template>
@@ -30,14 +37,16 @@
   <script>
 export default {
   data: () => ({
-    active: "home",
-    link: [
-      { url: "/", name: "home", title: "Home" },
-      { url: "/about", name: "about", title: "About" },
-      { url: "", name: "", title: "" },
-      { url: "", name: "", title: "" },
-      { url: "", name: "", title: "" },
-    ],
+    active: "",
   }),
+  created() {
+    // async () => {
+    //   this.active = this.$route.name;
+    //   console.log(this.active);
+    // };
+  },
 };
 </script>
+
+<style>
+</style>

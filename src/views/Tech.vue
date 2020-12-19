@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <v-parallax height="300px" dark :src="coverurl">
+    <v-parallax height="400px" dark :src="coverurl">
       <v-col align="center" justify="center">
         <v-col class="text-center cd-fixed-bg" cols="12">
           <h1 class="display-2 font-weight-bold mb-6 align-middle">
@@ -9,8 +9,7 @@
         </v-col>
       </v-col>
     </v-parallax>
-    <Tech msg="Welcome to Your Vue.js App" />
-    <Homeinfo />
+    <Tech />
   </div>
 </template>
 

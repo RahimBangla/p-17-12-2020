@@ -7,8 +7,12 @@
             <img src="img/clock_hours.png" alt="" class="thumbnail" />
           </p>
           <h4>FACILITY HOURS</h4>
-          <h7>Open: Monday-Saturday</h7><br />5AM-10PM<br />For more information
-          click<br /><a href="#" class="link">HERE</a>
+          <h6>Open: Monday-Saturday</h6>
+          <br />5AM-10PM<br />For more information click<br /><a
+            href="#"
+            class="link"
+            >HERE</a
+          >
         </div>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
@@ -17,9 +21,11 @@
             <img src="img/pool_hours.png" alt="" class="thumbnail" />
           </p>
           <h4>INDOOR POOL HOURS</h4>
-          <h7>Open Swim: Monday-Saturday</h7><br />
+          <h6>Open Swim: Monday-Saturday</h6>
+          <br />
           <p style="text-align: center">5AM-8AM,12PM-2PM, 6PM-Close(10PM)</p>
-          <h7>Classes: Monday-Saturday</h7><br />
+          <h6>Classes: Monday-Saturday</h6>
+          <br />
           <p style="text-align: center">8AM-12PM, 2PM</p>
         </div>
       </div>
@@ -29,11 +35,13 @@
             <img src="img/sports.png" alt="" class="thumbnail" />
           </p>
           <h4>DROP-IN SPORTS HOURS</h4>
-          <h7>Tennis:</h7><br />
+          <h6>Tennis:</h6>
+          <br />
           <p style="text-align: center">
             Available by reservation during operating hours, when in season
           </p>
-          <h7>Courts (Basketball, Volleyball):</h7><br />
+          <h6>Courts (Basketball, Volleyball):</h6>
+          <br />
           <p style="text-align: center">
             Available during operating hours. One court always open for
             reservations.

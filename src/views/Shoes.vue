@@ -38,86 +38,86 @@ export default {
   data: () => ({
     cards: [
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        title: "Where does it come from?",
-        url: "https://vuesax.com/foto2.jpg",
-        picture: "https://vuesax.com/foto2.jpg",
+        title: "Coming Soon..",
+        url: "/img/demo.jpg",
+        picture: "/img/demo.jpg",
         info:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       },
