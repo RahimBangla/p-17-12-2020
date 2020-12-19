@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 align-middle">
         <v-img
           contain
           lazy-src="https://picsum.photos/id/11/10/6"
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-6 col-md-2">
+      <div class="col col-md-2 thumbnail_align">
         <img class="techpic" :src="info2.photo" alt="Avatar" />
       </div>
       <div class="col-md-10 align-middle">
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="row clearfix">
-      <div class="col-12 col-md-2 float-end">
+      <div class="col col-md-2 float-end thumbnail_align">
         <img class="techpic" :src="info3.photo" alt="Avatar" />
       </div>
       <div class="col-md-10 float-start">

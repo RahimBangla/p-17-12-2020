@@ -34,7 +34,7 @@
           class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0"
         >
           <li class="mr-3 mr-lg-0">
-            <router-link to="about">About</router-link>
+            <a href="https://github.com">Repository</a>
           </li>
         </ul>
       </div>
@@ -157,7 +157,7 @@ a {
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer-octicon {
   color: var(--color-footer-invertocat-octicon);

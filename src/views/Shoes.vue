@@ -1,18 +1,11 @@
 <template>
   <div class="home shoos-container center grid">
     <div class="container">
-      <div class="row row-cols-4">
+      <div class="row thumbnail_align">
         <div
-          class="col-lg-3 col-sm-4 col-xs-6 text-center d-flex p-2 justify-content-center"
+          class="col-lg-3 col-sm-4 col-xs-6 col-6"
           :key="index"
           v-for="(card, index) in cards"
-          vs-type="flex"
-          vs-justify="center"
-          vs-align="center"
-          w="3"
-          lg="3"
-          sm="4"
-          xs="12"
         >
           <Shoes
             :title="card.title"

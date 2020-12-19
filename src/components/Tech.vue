@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row d-flex p-2 justify-content-center">
-      <div class="col-6 col-md-2">
+      <div class="col col-md-2 thumbnail_align">
         <img class="techpic" :src="info1.photo" alt="Avatar" />
       </div>
       <div class="col-md-10 align-middle">
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="row clearfix d-flex p-2 justify-content-center">
-      <div class="col col-md-2">
+      <div class="col col-md-2 thumbnail_align">
         <img class="techpic" :src="info2.photo" alt="Avatar" />
       </div>
       <div class="col-md-10 float-start">

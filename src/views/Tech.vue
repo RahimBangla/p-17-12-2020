@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <v-parallax height="400px" dark :src="coverurl">
+    <v-parallax height="200px" dark :src="coverurl">
       <v-col align="center" justify="center">
         <v-col class="text-center cd-fixed-bg" cols="12">
-          <h1 class="display-2 font-weight-bold mb-6 align-middle">
+          <h3 class="display-2 font-weight-bold mb-6">
             {{ title }}
-          </h1>
+          </h3>
         </v-col>
       </v-col>
     </v-parallax>
@@ -23,9 +23,8 @@ export default {
     Tech,
   },
   data: () => ({
-    title: "ROCKY MTN RECREATION CENTER",
-    coverurl:
-      "http://christianjmcclellan.com/rockymtnrecreation/images/cd-background-4.jpg",
+    title: "Technology",
+    coverurl: "/img/cd-background-1.jpg",
   }),
 };
 </script>

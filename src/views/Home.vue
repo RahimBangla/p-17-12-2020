@@ -9,7 +9,7 @@
         </v-col>
       </v-col>
     </v-parallax>
-    <div class="bg-white">
+    <div style="background-color: white">
       <HelloWorld msg="Welcome to Your Vue.js App" />
     </div>
     <Homeinfo />
@@ -29,8 +29,7 @@ export default {
   },
   data: () => ({
     title: "ROCKY MTN RECREATION CENTER",
-    coverurl:
-      "http://christianjmcclellan.com/rockymtnrecreation/images/cd-background-4.jpg",
+    coverurl: "/img/cd-background-4.jpg",
   }),
 };
 </script>
