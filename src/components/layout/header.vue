@@ -2,18 +2,20 @@
   <div class="center examplex">
     <vs-navbar center-collapsed v-model="active">
       <template #left>
-        <img
-          src="/img/logo_flat.png"
-          alt="logo"
-          class="d-none d-sm-block"
-          style="width: 200px"
-        />
-        <img
-          src="/img/logo.png"
-          alt="logo"
-          class="d-sm-none"
-          style="width: 70px"
-        />
+        <a href="/">
+          <img
+            src="/img/logo_flat.png"
+            alt="logo"
+            class="d-none d-sm-block"
+            style="width: 200px"
+          />
+          <img
+            src="/img/logo.png"
+            alt="logo"
+            class="d-sm-none"
+            style="width: 70px"
+          />
+        </a>
       </template>
       <template #right>
         <vs-navbar-item to="/" :active="active == 'Home'" id="Home">
