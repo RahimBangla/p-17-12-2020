@@ -1,4 +1,4 @@
-# p-17-12-2020
+# p-17-12-2020-Project
 
 ## Project setup
 ```
